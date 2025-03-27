@@ -1,0 +1,22 @@
+.video-section {
+    text-align: center;
+}
+
+.video-section h1 {
+    padding: var(--spacing-xxl) 0 var(--spacing-lg) 0;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+video {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.9);
+}
